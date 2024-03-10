@@ -1,40 +1,32 @@
 <!doctype html>
 <html lang="fr-BE">
-
 <head>
-    <title> contact</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="this is an accessible form">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title> a propos </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS v5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Bootstrap icônes v1.11.1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Font Awesome 6.4.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/partridge-2" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
-        body{
-            background-color: burlywood;
-            border: solid black;
-        }
-        header{
-            width:100% ;
-            height: 14rem;
-            background-color: yellow;
-            display: flex;
-            justify-content: space-around;
-        }
-        main{
-            width:100% ;
-            border: solid rebeccapurple;
-        }
         .logo{
             height: 12rem;
             width: auto;
+            margin-left: 1rem;
             margin-bottom: 1rem;
             margin-top: 1rem;
+        }
+        .logo{
             border: solid black;
+            height: 12rem;
+            width: auto;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
         }
         .logo2{
             height: 12rem;
@@ -42,57 +34,43 @@
             margin-bottom: 1rem;
             margin-top: 1rem;
         }
-        nav{
-            border: solid black;
-           margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-        .img-border{
-            border: 2px solid blue;
-        }
-fieldset{
-    border: solid blue;
-}
-            </style>
+    </style>
+
 </head>
-<body>
-<header>
+<body class="bg-warning">
+<header class="bg-danger d-flex h-2 justify-content-space-around">
     <a class="navbar-brand" href="#">
         <img src="cible.canne.carabine.png" alt="canne carabine dans une cible" class="logo">
     </a>
     <a class="navbar-brand" href="#">
-        <img src="handi.shooter.png" alt="titre" class="logo2">
+        <img src="handi.shooter.png" alt="handy shooter" class="logo2">
     </a>
-    <nav role="navigation" class="navbar navbar-expand-lg bg-primary  ">
+    <nav role="navigation" class="navbar navbar-expand-lg bg-primary" style="margin-top: 1rem;margin-bottom: 1rem">
         <div class="container-fluid">
             <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="visually-hidden-focusable" href="#content">Aller au contenu</a>
+            <a class="visually-hidden-focusable" href="#">Aller au contenu de navigation</a>
             <div class="container-fluid">
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav nav-underline ">
                         <li class="nav-item">
-                            <a class="nav-link fs-2"  href="handy.shooter.html">Accueil</a>
+                            <a class="nav-link fs-2 " href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item fs-2">
                             <a class="nav-link  nav-underline  active" aria-current="page"  href="a.propos.html">a propos</a>
                         </li>
                         <li class="nav-item fs-2">
-                            <a class="nav-link" href="blog.html">blog</a>
+                            <a class="nav-link" aria-current="page" href="blog.html">blog</a>
                         </li>
                         <li class="nav-item fs-2">
-                            <a class="nav-link "  href="contact.html">contact</a>
+                            <a class="nav-link " href="contact.html">contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-
-    <script src="js/jquery-3.4.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </header>
 <main >
     <fieldset class=" p-2">
@@ -117,7 +95,7 @@ fieldset{
         mal-voyants</p>
             </div>
             <div class="col-md-6 text-md-end">
-                <img src="francis.png" class=" img-fluid w-100 img-border float-md-end" alt="francis">
+                <img src="francis.png" class=" img-fluid w-100 img-border border-solid-danger float-md-end" alt="francis">
             </div>
        </div>
         </fieldset>
@@ -126,7 +104,7 @@ fieldset{
                    <legend  class="fw-bold fs-1 text-uppercase italicized text-center text-danger"> tireur </legend>
                       <div class="row">
                        <div class="col-md-6">
-                           <img src="honore2.jpg" class=" img-fluid w-100 img-border float-md-start" alt="christian" width="1920" height="1080">
+                           <img src="honore2.jpg" class=" img-fluid w-100 border border-danger float-md-start" alt="christian" width="1920" height="1080">
                        </div>
                        <div class="col-md-6">
                        <h3 class="fw-bold fs-2 text-uppercase italicized text-center text-danger"> Christian Honoré</h3>
@@ -155,7 +133,7 @@ fieldset{
         fait de lui un futur champion et un model pour tant d'autre.</p>
                    </div>
                    <div class="col-md-6 text-md-end">
-        <img src="enael1.jpg" class=" img-fluid w-100 img-border float-md-end" alt="enael">
+        <img src="enael1.jpg" class=" img-fluid w-100 img-border border-solid-danger float-md-end" alt="enael">
                    </div>
                     </div>
                </fieldset>
@@ -226,7 +204,7 @@ fieldset{
 <footer role="contentinfo" class="bg-danger">
     <div class="row ">
         <div class="col-12 text-center">
-            <p class="fw-bold"> Avec le soutien du S.R.T.M. Morlanwelz:</p>
+            <p class="fw-bold p-2"> Avec le soutien du S.R.T.M. Morlanwelz:</p>
             <a href="https://www.facebook.com/srtm.morlanwelz"  class="imglink" target="_blank" rel="noopener"> </a>
         </div>
     </div>
@@ -237,5 +215,8 @@ fieldset{
         </div>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

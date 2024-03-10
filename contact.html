@@ -2,36 +2,18 @@
 <html lang="fr-BE">
 
 <head>
-    <title> contact</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="this is an accessible form">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title> contact </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS v5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Bootstrap icônes v1.11.1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Font Awesome 6.4.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/partridge-2" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style>
-        header{
-            width:100% ;
-            height: 14rem;
-
-            display: flex;
-            justify-content: space-around;
-        }
-        main{
-
-            background-image: url("t4tyd10613620314.jpg");
-            background-repeat: no-repeat ;
-          /*  background-size: 116rem 77rem;*/
-           /* height: 77rem;*/
-            width: 116rem;
-            border: solid black;
-
-        }
-
         .logo{
             height: 12rem;
             width: auto;
@@ -53,63 +35,37 @@
             margin-bottom: 1rem;
             margin-top: 1rem;
         }
-
-        nav{
-            border: solid black;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-        .container4{
-            border: solid black;
-            width: 25rem;
-            height: 35rem;
-            float: right;
-            display: inline-block;
-            padding: 2rem;
-            margin: 2rem;
-        }
-
-        .container3{
-            border: solid black;
-            width: 25rem;
-            height: 25rem;
-            float: left;
-            display: inline-block;
-            padding: 2rem;
-            margin: 2rem;
-            }
-
     </style>
 
 </head>
-<body>
-<header id="content" class="bg-danger">
+<body class="flex-column bg-danger">
+<header class="bg-danger d-flex h-2 justify-content-space-around">
     <a class="navbar-brand" href="#">
         <img src="cible.canne.carabine.png" alt="canne carabine dans une cible" class="logo">
     </a>
     <a class="navbar-brand" href="#">
         <img src="handi.shooter.png" alt="handy shooter" class="logo2">
     </a>
-    <nav role="navigation" class="navbar navbar-expand-lg bg-primary  ">
+    <nav role="navigation" class="navbar navbar-expand-lg bg-primary" style="margin-top: 1rem;margin-bottom: 1rem">
         <div class="container-fluid">
             <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="visually-hidden-focusable" href="#content">Aller au contenu</a>
+            <a class="visually-hidden-focusable" href="#">Aller au contenu de navigation</a>
             <div class="container-fluid">
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav nav-underline ">
                         <li class="nav-item">
-                            <a class="nav-link fs-2 " href="handy.shooter.html">Accueil</a>
+                            <a class="nav-link fs-2 " href="index.html">Accueil</a>
                         </li>
                         <li class="nav-item fs-2">
-                            <a class="nav-link " href="a.propos.html">a propos</a>
+                            <a class="nav-link fs-2" href="a.propos.html">a propos</a>
                         </li>
                         <li class="nav-item fs-2">
                             <a class="nav-link" aria-current="page" href="blog.html">blog</a>
                         </li>
                         <li class="nav-item fs-2">
-                            <a class="nav-link nav-underline  active" aria-current="page" href="contact.html">contact</a>
+                            <a class="nav-link  nav-underline  active" aria-current="page"  href="contact.html">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -117,45 +73,54 @@
         </div>
     </nav>
 </header>
-<main class="fs-2 " >
-    <h1>nous contacte+r</h1>
-    <div>
-    <fieldset class="container3 ">
-    <a href="mailto:christianhonre@outlook.fr">Envoyer un mail à Christian</a><br>
-    <a href="tel:0456321666"> Tel perso christian</a>
-    </fieldset>
+<main class="container-fluid position-relative"  >
+    <div class="row justify-content-center align-items-center ">
+    <div class="col">
+        <img src="t4tyd10613620314.jpg" class="w-100 h-100 "  alt="cible crible de balle">
+</div>
+    <div  class="position-absolute bg-transparent top-0 start-0 " style="width: 40rem;height: 5rem;margin-top: 3rem;margin-left: 32rem">
+        <h1 id="titre" class=" fw-bold text-uppercase italicized text-center text-danger m-2"> comment nous contacter</h1>
     </div>
-    <div>
-    <form id="contactform" action="http://zamboyle.synology.me:2727/forms/demos/showvars.php" method="post">
-        <fieldset class="container4">
-        <div class="mb-3">
-            <label class="form-label" for="name">name</label>
-            <input class="form-control" type="text" id="name" name="name" placeholder="name">
+    <div class="position-absolute bg-warning top-0 start-0 border border-dark " style="width: 20rem;height: 12rem;margin-top: 3rem;margin-left: 2rem">
+        <div class="col text-center">
+    <a href="mailto:christianhonre16@gmail.com" class="mr-2 fs-4">Envoyer un mail à Christian </a><br>
+    <a href="mailto:fj180553@gmail.com" class="mr-2 fs-4">Envoyer un mail a Francis </a><br>
+    <a href="https://www.facebook.com/srt-morlanwelz.be" class="mr-2 fs-4" target="_blank" >visite notre page facebook </a><br>
+    <a href="tel:0456321666" class="mr-2 fs-4"> Tel perso christian</a><br>
+    <a href="tel:0496656223" class="mr-2 fs-4"> Tel perso francis</a>
         </div>
-        <div class="mb-3">
-            <label class="form-label" for="firstname">firstname</label>
-            <input class="form-control" type="text" id="firstname" name="firstname" placeholder="firstname">
         </div>
-        <div class="mb-3">
-            <label class="form-label" for="email">email</label>
+    <div class="position-absolute bg-warning top-0 end-0 border border-dark" style="width: 30rem;height: 35rem;margin-top:3rem;margin-right: 2rem;">
+    <form id="contact_form" action="https://zamboyle.synology.me:2727/forms/demos/showvars.php" method="post">
+        <div class="container">
+        <div class="col text-center mb-3 fs-4 text-primary fst-italic">
+            <label class="form-label text-uppercase" for="nom">votre nom</label>
+            <input class="form-control" type="text" id="nom" name="nom" placeholder="nom">
+        </div>
+        <div class="col text-center mb-3 fs-4 text-primary fst-italic">
+            <label class="form-label text-uppercase" for="prenom">votre prenom</label>
+            <input class="form-control" type="text" id="prenom" name="prenom" placeholder="prenom">
+        </div>
+        <div class="col text-center mb-3 fs-4 text-primary fst-italic">
+            <label class="form-label text-uppercase" for="email"> votre email</label>
             <input class="form-control" type="email" id="email" name="email" placeholder="email">
         </div>
-        <div class="mb-3">
-            <label class="form-label" for="message">message</label>
+        <div class="col text-center mb-3 fs-4 text-primary fst-italic">
+            <label class="form-label text-uppercase" for="message">message</label>
             <input class="form-control" type="text" id="message" name="message" placeholder="message" style="height:10rem;">
         </div>
         <div class="d-grid">
-            <button class="btn btn-primary" type="submit">submit</button>
+            <button class="btn btn-primary" type="submit">envoyer</button>
         </div>
-        </fieldset>
+        </div>
     </form>
     </div>
-
+    </div>
 </main>
 <footer role="contentinfo" class="bg-danger">
     <div class="row ">
         <div class="col-12 text-center">
-            <p class="fw-bold"> Avec le soutien du S.R.T.M. Morlanwelz:</p>
+            <p class="fw-bold p-2"> Avec le soutien du S.R.T.M. Morlanwelz:</p>
             <a href="https://www.facebook.com/srtm.morlanwelz"  class="imglink" target="_blank" rel="noopener"> </a>
         </div>
     </div>
@@ -167,8 +132,10 @@
     </div>
 </footer>
 <!-- Bootstrap Librairie JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/js/fontawesome.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

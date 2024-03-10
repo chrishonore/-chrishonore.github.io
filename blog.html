@@ -2,217 +2,230 @@
 <html lang="fr-BE">
 
 <head>
-    <title> contact</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="this is an accessible form">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <title> blog </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS v5.3 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Bootstrap icônes v1.11.1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- Font Awesome 6.4.2 -->
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
-<style>
-    body{
-        background-color: yellow;
-        border: solid black;
-    }
-    header{
-        width:100% ;
-        height: 14rem;
-        background-color: red;
-        display: flex;
-        justify-content: space-around;
-    }
-    main{
-        border: solid rebeccapurple;
+    <link href="https://fonts.cdnfonts.com/css/partridge-2" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .logo{
+            height: 12rem;
+            width: auto;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        .logo{
+            border: solid black;
+            height: 12rem;
+            width: auto;
+            margin-left: 1rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        .logo2{
+            height: 12rem;
+            width: auto;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+    </style>
 
-    }
-    .logo{
-        border: solid black;
-        height: 12rem;
-        width: auto;
-        margin-left: 1rem;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
-    .logo2{
-        height: 12rem;
-        width: auto;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
-
-    nav{
-        border: solid black;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-</style>
 </head>
-<body>
-<header>
+<body class="bg-warning">
+<header class="bg-danger d-flex h-2 justify-content-space-around">
     <a class="navbar-brand" href="#">
         <img src="cible.canne.carabine.png" alt="canne carabine dans une cible" class="logo">
     </a>
     <a class="navbar-brand" href="#">
-        <img src="handi.shooter.png" alt="titre" class="logo2">
+        <img src="handi.shooter.png" alt="handy shooter" class="logo2">
     </a>
-        <nav role="navigation" class="navbar navbar-expand-lg bg-primary  ">
-            <div class="container-fluid">
-                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="visually-hidden-focusable" href="#content">Aller au contenu</a>
+    <nav role="navigation" class="navbar navbar-expand-lg bg-primary" style="margin-top: 1rem;margin-bottom: 1rem">
         <div class="container-fluid">
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav nav-underline ">
-                    <li class="nav-item">
-                        <a class="nav-link fs-2"  href="handy.shooter.html">Accueil</a>
-                    </li>
-                    <li class="nav-item fs-2">
-                        <a class="nav-link"  href="a.propos.html">a propos</a>
-                    </li>
-                    <li class="nav-item fs-2">
-                        <a class="nav-link nav-underline  active" aria-current="page" href="blog.html">blog</a>
-                    </li>
-                    <li class="nav-item fs-2">
-                        <a class="nav-link "  href="contact.html">contact</a>
-                    </li>
-                </ul>
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="visually-hidden-focusable" href="#">Aller au contenu de navigation</a>
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-underline ">
+                        <li class="nav-item">
+                            <a class="nav-link fs-2 " href="index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item fs-2">
+                            <a class="nav-link  " href="a.propos.html">a propos</a>
+                        </li>
+                        <li class="nav-item fs-2">
+                            <a class="nav-link  nav-underline  active" aria-current="page" href="blog.html">blog</a>
+                        </li>
+                        <li class="nav-item fs-2">
+                            <a class="nav-link " href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-            </div>
-        </nav>
-
+    </nav>
 </header>
-<main class="border-solid-black " >
-    <div class="container-fluid">
-        <fieldset >
-            <legend class="text-danger text-center">photo de notre equipement</legend>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="col-md-4">
-                        <img src="arme.png" class="img-fluid w-100" alt="carabine">
-                    </div>
-
-                    <img src="adaptateur.png" class="w-50" alt="schema d adaptateur">
-                </div>
-                <div class="col-md-4">
-        <img src="cible.carton.jpg" class="w-50" alt="cible en carton">
-                </div>
-                <div class="col-md-4">
-                    <img src="plomb1.jpg" class="w-50" alt="boite de plomb">
-                </div>
-                <div class="col-md-4">
-                    <img src="cible.elec.png" class="w-50" alt="cible electronique">
-                </div>
-                <div class="col-md-4">
-                    <img src="equipement.png" class="w-50" alt="equipement sonore">
-                </div>
-
-                <div class="col-md-4">
-                    <img src="cible.srtm.png" class="w-50" alt="cible srtm">
-                </div>
-                <div class="col-md-4">
-        <img src="complet.jpg" class="w-50" alt=" carabine de tir">
-                </div>
-            </div>
-        </fieldset>
-    </div>
-    <div class="container-fluid">
-        <FIELDSET>
-            <legend class="text-danger text-center">salon vera 2023 </legend>
-            <div class="row">
-                <div class="col-md-4">
-        <img src="vera1.jpg" class="w-50" alt="homme qui essaye le tir">
-                </div>
-                <div class="col-md-4">
-        <img src="vera2.jpg" class="w-50" alt="dame qui tire">
-                </div>
-                <div class="col-md-4">
-                    <img src="francis-moi.jpg" class="w-50" alt="francis et christian a vera">
-                </div>
-
-                <div class="col-md-4">
-        <img src="vera3.jpg" class="w-50" alt="enfant pmr qui tire">
-                </div>
-                <div class="col-md-4">
-        <img src="vera4.jpg" class="w-50" alt="homme pmr qui tire">
-        </div>
-        <div class="col-md-4">
-        <img src="vera5.jpg" class="w-50" alt="aveugle qui tire">
-        </div>
-        <div class="col-md-4">
-        <img src="vera6.jpg" class="w-50" alt="voyant qui essaye l equipement">
-        </div>
-        <div class="col-md-4">
-        <img src="IMG_2273.jpg" class="w-50" alt="tessia qui tire a la carabine ">
-        </div>
-
-        <div class="col-md-4">
-        <img src="honore-vera.jpg" class="w-50" alt="champion de belgique qui tire">
-        </div>
-    </div>
- </FIELDSET>
-    </div>
-    <div class="container-fluid">
-        <FIELDSET>
-            <legend class="text-danger text-center">B.O.A. 2023 </legend>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="honore1.png" class="w-50" alt="francis et christian au boa">
-                </div>
-
-                <div class="col-md-4">
-                    <img src="cibleboa.jpg" class="w-50" alt="cible de competition">
-                </div>
-                <div class="col-md-4">
-                    <img src="medaille.JPG" class="w-50" alt="remise de la medaille d or">
-                </div>
-                <div class="col-md-4">
-                    <img src="resultatboa.jpg" class="w-50" alt="premier resultat b.o.a.2023">
-                </div>
-            </div>
-        </FIELDSET>
-    </div>
-    <div class="container-fluid">
-        <fieldset>
-            <legend class="text-danger text-center"> nos photo et notre club </legend>
+<main class="container-fluid" style="padding-top: 3rem" >
        <div class="row">
-           <div class="col-md-4">
+            <h1 class="fw-bold text-center text-danger text-uppercase fst-italic">photo de notre equipement</h1>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                        <img src="arme.png" class="w-75 mb-3 " style="padding-top: 3rem; padding-left: 2rem" alt="carabine">
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+        <div class="text-center">
+                    <img src="adaptateur.png" class="w-100 mb-3" style="padding-right: 2rem" alt="schema d adaptateur">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+        <img src="cible.carton.jpg" class="w-50 h-50 mb-3" alt="cible en carton">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                    <img src="plomb1.jpg" class="w-75 mb-3" alt="boite de plomb">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                    <img src="cible.elec.png" class="w-50 h-50 mb-3" alt="cible electronique">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                    <img src="equipement.png" class="w-50 h-50 mb-3" alt="equipement sonore">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                    <img src="cible.srtm.png" class="w-50 h-50 mb-3" alt="cible srtm">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+        <img src="complet.jpg" class="w-50 h-50 mb-3" alt=" carabine de tir">
+                </div>
+              </div>
+       </div>
+        <div class="row">
+        <h1 class="fw-bold text-center text-danger text-uppercase fst-italic">salon vera 2023 </h1>
+           <div class="col-md-6 mb-2">
+            <div class="text-center">
+                <img src="vera1.jpg" class="w-50 h-50 mb-3" alt="homme qui essaye le tir">
+                </div>
+        </div>
+           <div class="col-md-6 mb-2">
+            <div class="text-center">
+            <img src="vera2.jpg" class="w-50 h-50 mb-3" alt="dame qui tire">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+            <div class="text-center">
+            <img src="francis-moi.jpg" class="w-50 h-50 mb-3" alt="francis et christian a vera">
+                </div>
+        </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+        <img src="vera3.jpg" class="w-50 h-50 mb-3" alt="enfant pmr qui tire">
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+        <img src="vera4.jpg" class="w-50 h-50 mb-3" alt="homme pmr qui tire">
+        </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="vera5.jpg" class="w-50 h-50 mb-3" alt="aveugle qui tire">
+        </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="vera6.jpg" class="w-50 h-50 mb-3" alt="voyant qui essaye l equipement">
+        </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="IMG_2273.jpg" class="w-50" alt="tessia qui tire a la carabine ">
+                 </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="honore-vera.jpg" class="w-50" alt="champion de belgique qui tire">
+               </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="fw-bold text-center text-danger text-uppercase fst-italic">B.O.A. 2023 </h1>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="honore1.png" class="w-75" alt="francis et christian au boa">
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="cibleboa.jpg" class="w-50" alt="cible de competition">
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="medaille.JPG" class="w-50" alt="remise de la medaille d or">
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+                <img src="resultatboa.jpg" class="w-50" alt="premier resultat b.o.a.2023">
+                </div>
+            </div>
+            </div>
+        <div class="row">
+           <h1 class="fw-bold text-center text-danger text-uppercase fst-italic"> nos photo et notre club </h1>
+           <div class="col-md-6 mb-2">
+            <div class="text-center">
            <img src="result-hon.jpg" class="w-50" alt="resultat de cible honore">
            </div>
-           <div class="col-md-4">
-               <img src="enael3.png" class="w-50" alt="enael qui tire">
            </div>
-           <div class="col-md-4">
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+               <img src="enael3.png" class="w-75" alt="enael qui tire">
+           </div>
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
                <img src="complet.jpg" class="w-50" alt="carabine d entrainement">
            </div>
-           <div class="col-md-4">
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
                <img src="cible.srtm.png" class="w-50" alt="stand de tir">
            </div>
-
-           <div class="col-md-4">
-               <img src="honore2.jpg" class="w-50" alt="christian en entrainement">
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+               <img src="honore2.jpg" class="w-75" alt="christian en entrainement">
            </div>
-           <div class="col-md-4">
-               <img src="francis.png" class="w-50" alt="francis a son club ">
+            </div>
+            <div class="col-md-6 mb-2">
+                <div class="text-center">
+               <img src="francis.png" class="w-75 mb-3" alt="francis a son club ">
            </div>
-
+            </div>
        </div>
-        </fieldset>
-    </div>
-
-
-
     </main>
 <footer role="contentinfo" class="bg-danger">
     <div class="row ">
         <div class="col-12 text-center">
-            <p class="fw-bold"> Avec le soutien du S.R.T.M. Morlanwelz:</p>
+            <p class="fw-bold p-2"> Avec le soutien du S.R.T.M. Morlanwelz:</p>
             <a href="https://www.facebook.com/srtm.morlanwelz"  class="imglink" target="_blank" rel="noopener"> </a>
         </div>
     </div>
@@ -223,10 +236,8 @@
         </div>
     </div>
 </footer>
-<!-- Bootstrap Librairie JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/js/fontawesome.min.js"></script>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
